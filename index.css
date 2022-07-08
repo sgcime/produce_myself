@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+
+#name,
+#nameEn,
+#nameKor {
+  padding: 10px 5px 5px 20px;
+  color: #214151;
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+#nameEn:hover,
+#nameKor:hover {
+  padding-left: 20px;
+  text-align: center;
+  background-color: #eff7e1;
+  transition: all 0.5s ease-in;
+}
+
+nav {
+  width: 75%;
+  height: 60px;
+  padding: 1px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  padding: 12px;
+  color: #a2d0c1;
+  font-size: 25px;
+  text-decoration-line: none;
+}
+
+.menu:hover {
+  background-color: #eff7e1;
+  transition: all 0.5s ease-in;
+}
+
+main {
+  margin: 50px 30px;
+}
+
+main img {
+  width: 50%;
+  margin-left: 250px;
+}
+
+main .info {
+  margin-top: 30px;
+  margin-left: 250px;
+  font-size: 17px;
+}
+
+#resume {
+  margin: 220px 10px 10px 100px;
+}
+
+h2 {
+  color: #214151;
+  font-size: 30px;
+}
+
+.subtitle1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 50px 10px 10px 250px;
+  float: left;
+}
+
+.contents1 {
+  font-size: 15px;
+  margin: 50px 600px 10px 100px;
+  float: right;
+}
+
+.period1 {
+  font-size: 17px;
+  margin: 50px 10px 10px 150px;
+  float: right;
+}
+
+.contents2 {
+  font-size: 15px;
+  margin: 50px 600px 10px 100px;
+  clear: both;
+  float: right;
+}
+
+.period2 {
+  font-size: 17px;
+  margin: 50px 10px 10px 150px;
+  float: right;
+}
+
+.subtitle2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 50px 10px 10px 250px;
+  clear: both;
+  float: left;
+}
+
+.contents3 {
+  font-size: 15px;
+  margin: 50px 600px 10px 100px;
+  float: right;
+}
+
+.period3 {
+  font-size: 17px;
+  margin: 50px 10px 10px 150px;
+  float: right;
+}
+
+.contents4 {
+  font-size: 15px;
+  margin: 50px 600px 10px 100px;
+  clear: both;
+  float: right;
+}
+
+.period4 {
+  font-size: 17px;
+  margin: 50px 10px 10px 150px;
+  float: right;
+}
+
+#contact {
+  clear: both;
+  margin: 820px 10px 10px 100px;
+}
+
+.contents5 {
+  margin: 100px 600px 500px 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+footer {
+  clear: both;
+  height: 40px;
+  margin: 100px 0 20px 150px;
+  color: gray;
+  font-size: 12px;
+}
