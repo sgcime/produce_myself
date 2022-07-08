@@ -4,6 +4,7 @@
 }
 
 body {
+  width: 1800px;
 }
 
 #name,
@@ -20,12 +21,16 @@ body {
 #nameKor:hover {
   padding-left: 20px;
   text-align: center;
-  background-color: #eff7e1;
+  color: #f8dc81;
   transition: all 0.5s ease-in;
 }
 
+#nameKor {
+  margin: 0 42px;
+}
+
 nav {
-  width: 75%;
+  width: 1200px;
   height: 60px;
   padding: 1px;
 }
@@ -55,6 +60,7 @@ main {
 main img {
   width: 50%;
   margin-left: 250px;
+  margin-top: 80px;
 }
 
 main .info {
@@ -63,7 +69,8 @@ main .info {
   font-size: 17px;
 }
 
-#resume {
+#resume,
+#contact {
   margin: 220px 10px 10px 100px;
 }
 
@@ -72,87 +79,135 @@ h2 {
   font-size: 30px;
 }
 
-.subtitle1 {
-  font-size: 22px;
-  font-weight: 700;
-  margin: 50px 10px 10px 250px;
-  float: left;
-}
-
-.contents1 {
-  font-size: 15px;
-  margin: 50px 600px 10px 100px;
-  float: right;
-}
-
-.period1 {
-  font-size: 17px;
-  margin: 50px 10px 10px 150px;
-  float: right;
-}
-
-.contents2 {
-  font-size: 15px;
-  margin: 50px 600px 10px 100px;
-  clear: both;
-  float: right;
-}
-
-.period2 {
-  font-size: 17px;
-  margin: 50px 10px 10px 150px;
-  float: right;
-}
-
+.subtitle1,
 .subtitle2 {
   font-size: 22px;
   font-weight: 700;
   margin: 50px 10px 10px 250px;
-  clear: both;
   float: left;
 }
 
-.contents3 {
-  font-size: 15px;
-  margin: 50px 600px 10px 100px;
-  float: right;
+main section {
+  width: 300px;
+  text-align: left;
 }
 
-.period3 {
-  font-size: 17px;
-  margin: 50px 10px 10px 150px;
-  float: right;
-}
-
+.contents1,
+.contents2,
+.contents3,
 .contents4 {
   font-size: 15px;
-  margin: 50px 600px 10px 100px;
-  clear: both;
+  margin: 50px 500px 10px 0px;
   float: right;
 }
 
+.contents5 {
+  margin: 100px 600px 100px 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+#contact,
+.subtitle2,
+.contents2,
+.contents4 {
+  clear: both;
+}
+
+.period1,
+.period2,
+.period3,
 .period4 {
   font-size: 17px;
   margin: 50px 10px 10px 150px;
   float: right;
 }
 
-#contact {
+.blank {
   clear: both;
-  margin: 820px 10px 10px 100px;
+  width: 100%;
+  height: 200px;
 }
 
-.contents5 {
-  margin: 100px 600px 500px 250px;
+.pageUp {
+  clear: both;
+  margin: 50px 350px 200px 0;
   display: flex;
-  flex-direction: column;
-  justify-content: left;
+  justify-content: flex-end;
+}
+
+.pageUp a {
+  text-decoration-line: none;
+  font-size: 50px;
+  color: #f8dc81;
 }
 
 footer {
   clear: both;
   height: 40px;
-  margin: 100px 0 20px 150px;
+  margin: 100px 0 80px 150px;
   color: gray;
   font-size: 12px;
+}
+
+@media (max-width: 300px) and (max-width: 800px) {
+  body {
+    width: 90%;
+  }
+
+  nav {
+    width: 600px;
+  }
+
+  main img {
+    width: 65%;
+    margin-top: 80px;
+    align-items: center;
+  }
+
+  #resume,
+  #contact {
+    margin: 100px 10px 10px 100px;
+  }
+
+  .subtitle1,
+  .subtitle2 {
+    margin: 50px 10px 10px 100px;
+  }
+
+  .contents1,
+  .contents2,
+  .contents3,
+  .contents4 {
+    margin: 50px 100px 10px 0px;
+  }
+
+  .contents5 {
+    margin: 100px 300px 100px 200px;
+  }
+
+  .period1,
+  .period2,
+  .period3,
+  .period4 {
+    margin: 50px 5px 10px 100px;
+  }
+
+  .blank {
+    height: 50px;
+  }
+
+  .pageUp {
+    margin: 50px 200px 50px 0;
+  }
+
+  footer {A2D0C1
+    clear: both;
+    height: 40px;
+    padding: 100px 0 80px 150px;
+    color: gray;
+    background-color: #a2d0c1;
+    font-size: 12px;
+  }
 }
