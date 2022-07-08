@@ -120,7 +120,7 @@ main section {
 .period3,
 .period4 {
   font-size: 17px;
-  margin: 50px 10px 10px 150px;
+  margin: 50px 10px 10px 100px;
   float: right;
 }
 
@@ -153,7 +153,7 @@ footer {
 
 @media (max-width: 300px) and (max-width: 800px) {
   body {
-    width: 90%;
+    width: 600px;
   }
 
   nav {
@@ -173,25 +173,25 @@ footer {
 
   .subtitle1,
   .subtitle2 {
-    margin: 50px 10px 10px 100px;
+    margin: 50px 10px 10px 50px;
   }
 
   .contents1,
   .contents2,
   .contents3,
   .contents4 {
-    margin: 50px 100px 10px 0px;
+    margin: 50px 50px 10px 5px;
   }
 
   .contents5 {
-    margin: 100px 300px 100px 200px;
+    margin: 100px 0px 100px 150px;
   }
 
   .period1,
   .period2,
   .period3,
   .period4 {
-    margin: 50px 5px 10px 100px;
+    margin: 50px 5px 10px 50px;
   }
 
   .blank {
